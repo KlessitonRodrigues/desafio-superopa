@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "api:start": "yarn workspace @desafio-superopa/api start",
+    "api:build": "yarn workspace @desafio-superopa/api build",
+    "api:dev": "yarn workspace @desafio-superopa/api dev",
+    "api:test": "yarn workspace @desafio-superopa/api test"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
