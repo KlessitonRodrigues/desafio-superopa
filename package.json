@@ -7,7 +7,8 @@
     "api:start": "yarn workspace @desafio-superopa/api start",
     "api:build": "yarn workspace @desafio-superopa/api build",
     "api:dev": "yarn workspace @desafio-superopa/api dev",
-    "api:test": "yarn workspace @desafio-superopa/api test"
+    "api:test": "yarn workspace @desafio-superopa/api test",
+    "web:dev": "yarn workspace @desafio-superopa/web dev"
   },
   "workspaces": {
     "packages": [
